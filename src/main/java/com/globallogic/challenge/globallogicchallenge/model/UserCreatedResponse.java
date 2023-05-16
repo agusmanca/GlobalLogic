@@ -6,9 +6,9 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Data
-public class UsuarioCreadoResponse implements Serializable {
+public class UserCreatedResponse implements Serializable {
     private UUID id;
-    private UsuarioDto usuario;
+    private UserDto user;
     private LocalDateTime created;
     private LocalDateTime lastLogin;
     private String token;

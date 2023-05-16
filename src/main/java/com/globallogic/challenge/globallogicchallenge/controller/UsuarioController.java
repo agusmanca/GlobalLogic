@@ -2,8 +2,8 @@ package com.globallogic.challenge.globallogicchallenge.controller;
 
 import com.globallogic.challenge.globallogicchallenge.exception.errorModels.BadRequestEx;
 import com.globallogic.challenge.globallogicchallenge.exception.errorModels.InternalServerErrorEx;
-import com.globallogic.challenge.globallogicchallenge.model.UsuarioCreadoResponse;
-import com.globallogic.challenge.globallogicchallenge.model.UsuarioDto;
+import com.globallogic.challenge.globallogicchallenge.model.UserCreatedResponse;
+import com.globallogic.challenge.globallogicchallenge.model.UserDto;
 import com.globallogic.challenge.globallogicchallenge.service.UsuarioService;
 import jakarta.validation.Valid;
 import org.slf4j.Logger;
@@ -14,7 +14,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/api/v1/usuario")
 public class UsuarioController {
 
     private static final Logger logger = LoggerFactory.getLogger(UsuarioController.class);
@@ -23,8 +23,9 @@ public class UsuarioController {
     private UsuarioService service;
 
     @PostMapping("/sign-up")
-    public ResponseEntity<UsuarioCreadoResponse> createUser(@Valid @RequestBody UsuarioDto newUser) throws BadRequestEx, InternalServerErrorEx {
-        UsuarioCreadoResponse response = service.createUser(newUser);
+    public ResponseEntity<UserCreatedResponse> createUser(@Valid @RequestBody UserDto newUser) throws BadRequestEx, InternalServerErrorEx {
+        logger.info("Creacion de nuevo Usuario.");
+        UserCreatedResponse response = service.createUser(newUser);
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 }

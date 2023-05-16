@@ -12,7 +12,7 @@ import java.util.UUID;
 @Entity
 @Table(name = "USERS")
 @Data
-public class Usuario implements Serializable {
+public class User implements Serializable {
 
     @Id
     @GeneratedValue(generator = "UUID")
@@ -28,6 +28,9 @@ public class Usuario implements Serializable {
 
     @Column(name = "PASSWORD")
     private String password;
+
+    @Column(name = "ROLE")
+    private String role;
 
     @OneToMany(mappedBy = "user", cascade = {CascadeType.ALL}, fetch = FetchType.LAZY)
     private List<Phone> phones;
