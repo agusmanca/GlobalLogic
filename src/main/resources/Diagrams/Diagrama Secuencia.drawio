@@ -1,0 +1,227 @@
+<mxfile host="app.diagrams.net" modified="2023-05-16T15:14:18.545Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="nvxjNQvthPV5_HlA7cSt" version="21.3.2" type="device">
+  <diagram name="Página-1" id="7LPot5LNF6sSoqkXqpwD">
+    <mxGraphModel dx="2390" dy="1243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EFKtEG06dirfnmwWEddL-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="93" y="174" width="10" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-15" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="83" y="84" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="259" y="174" width="10" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="577" y="174" width="10" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="734" y="174" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="734" y="523" width="10" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-22" value="&lt;div&gt;«Controller»&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;UsuarioController&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="199" y="104" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-23" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="EFKtEG06dirfnmwWEddL-22">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-24" value="&lt;div&gt;«Service»&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;UsuarioServiceImpl&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="517" y="104" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-25" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="EFKtEG06dirfnmwWEddL-24">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-26" value="&lt;div&gt;«DB»&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;H2 / JPA&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="694" y="104" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-27" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="EFKtEG06dirfnmwWEddL-26">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="103" y="198" as="sourcePoint" />
+            <mxPoint x="253" y="198" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-31" value="&lt;div&gt;Solicitud nuevo &lt;br&gt;&lt;/div&gt;&lt;div&gt;Usuario&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFKtEG06dirfnmwWEddL-30">
+          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="269" y="211.75" as="sourcePoint" />
+            <mxPoint x="415" y="211.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-33" value="&lt;div&gt;Validacion&lt;/div&gt;&lt;div&gt;de campos&lt;br&gt;&lt;/div&gt;&lt;div&gt;de request&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFKtEG06dirfnmwWEddL-32">
+          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="415" y="174" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-35" value="&lt;div&gt;«Framework»&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Validators&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375" y="104" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-36" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="EFKtEG06dirfnmwWEddL-35">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-37" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="1">
+          <mxGeometry x="411" y="266" width="18" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="248" as="sourcePoint" />
+            <mxPoint x="269" y="248" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-39" value="Resultado Validacion" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFKtEG06dirfnmwWEddL-38">
+          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
+            <mxPoint x="-13" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="873" y="174" width="10" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-42" value="&lt;div&gt;«Servicio»&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;JwtUtilServices&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="823.5" y="104" width="109" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-43" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="EFKtEG06dirfnmwWEddL-42">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="269" y="311" as="sourcePoint" />
+            <mxPoint x="573" y="311" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-45" value="Crear Usuario" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFKtEG06dirfnmwWEddL-44">
+          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
+            <mxPoint x="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="587" y="333" as="sourcePoint" />
+            <mxPoint x="734" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-47" value="&lt;div&gt;Controlar si &lt;br&gt;&lt;/div&gt;&lt;div&gt;usuario existe&lt;/div&gt;&lt;div&gt;previamente&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFKtEG06dirfnmwWEddL-46">
+          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
+            <mxPoint x="11" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-48" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="733" y="386" as="sourcePoint" />
+            <mxPoint x="587" y="386" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-49" value="&lt;div&gt;Respuesta de &lt;br&gt;&lt;/div&gt;&lt;div&gt;DB&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFKtEG06dirfnmwWEddL-48">
+          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
+            <mxPoint x="-13" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-50" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="EFKtEG06dirfnmwWEddL-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="587" y="451" as="sourcePoint" />
+            <mxPoint x="870" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-51" value="&lt;div&gt;Solicito &lt;br&gt;&lt;/div&gt;&lt;div&gt;nuevo token&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFKtEG06dirfnmwWEddL-50">
+          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
+            <mxPoint x="11" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="EFKtEG06dirfnmwWEddL-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="892" y="487" as="sourcePoint" />
+            <mxPoint x="588" y="487" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-53" value="Devuelve nuevo token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFKtEG06dirfnmwWEddL-52">
+          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
+            <mxPoint x="-48" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="587" y="564" as="sourcePoint" />
+            <mxPoint x="734" y="564" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-55" value="&lt;div&gt;Persisto nuevo&lt;/div&gt;&lt;div&gt;Usuario en DB&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFKtEG06dirfnmwWEddL-54">
+          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
+            <mxPoint x="11" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="734" y="614" as="sourcePoint" />
+            <mxPoint x="588" y="614" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-57" value="&lt;div&gt;Retorna confirmacion &lt;br&gt;&lt;/div&gt;&lt;div&gt;de la solicitud&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFKtEG06dirfnmwWEddL-56">
+          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
+            <mxPoint x="-13" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-58" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="1">
+          <mxGeometry x="730" y="647" width="18" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="577" y="651" as="sourcePoint" />
+            <mxPoint x="269" y="651" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-60" value="&lt;div&gt;Regresa modelo&lt;/div&gt;&lt;div&gt;de nuevo usuario creado&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFKtEG06dirfnmwWEddL-59">
+          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
+            <mxPoint x="-13" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-61" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="1">
+          <mxGeometry x="573" y="686" width="18" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-63" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="EFKtEG06dirfnmwWEddL-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="253" y="684" as="sourcePoint" />
+            <mxPoint x="103" y="684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-64" value="&lt;div&gt;Regresa modelo&lt;/div&gt;&lt;div&gt;de nuevo usuario creado&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFKtEG06dirfnmwWEddL-63">
+          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
+            <mxPoint x="-13" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-65" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="1">
+          <mxGeometry x="255" y="726" width="18" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-66" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="1">
+          <mxGeometry x="89" y="726" width="18" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-67" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="1">
+          <mxGeometry x="869" y="504" width="18" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EFKtEG06dirfnmwWEddL-68" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;Diagrama de Secuencia Crear Usuario&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="21" width="448" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -17,7 +17,7 @@ public class UserDto implements Serializable {
     private String email;
 
     @NotBlank(message = "Field Password: The password is required.")
-    //@Pattern(regexp = "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,12}$", message = "Field Password: Invalid password format")
+    //@Pattern(regexp = "^((?:\d{2}\.)(?:[a-z]{3,}\.)(?:[A-Z]{1,}\.)){8,12}$", message = "Field Password: Invalid password format")
     private String password;
 
     private RoleEnum role;

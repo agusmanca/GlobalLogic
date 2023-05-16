@@ -10,6 +10,7 @@ import com.globallogic.challenge.globallogicchallenge.model.AuthenticationReq;
 import com.globallogic.challenge.globallogicchallenge.model.LoginResponse;
 import com.globallogic.challenge.globallogicchallenge.model.UserCreatedResponse;
 import com.globallogic.challenge.globallogicchallenge.model.UserDto;
+import com.globallogic.challenge.globallogicchallenge.service.JwtUtilService;
 import com.globallogic.challenge.globallogicchallenge.service.UsuarioService;
 import org.apache.logging.log4j.util.Strings;
 import org.modelmapper.ModelMapper;
@@ -32,7 +33,7 @@ public class UsuarioServiceImpl implements UsuarioService {
     private Encrypt encrypt;
 
     @Autowired
-    private JwtUtilServiceImpl jwtUtilServiceImpl;
+    private JwtUtilService jwtUtilService;
 
     @Override
     public UserCreatedResponse createUser(UserDto newUserDto) throws BadRequestEx, InternalServerErrorEx {
@@ -42,7 +43,7 @@ public class UsuarioServiceImpl implements UsuarioService {
             throw new BadRequestEx("This Username already exist.");
         }
 
-        String jwt = jwtUtilServiceImpl.generateToken(
+        String jwt = jwtUtilService.generateToken(
                         org.springframework.security.core.userdetails.User.withUsername(newUserDto.getEmail().toLowerCase())
                             .password(encrypt.getAES(newUserDto.getPassword()))
                             .roles(newUserDto.getRole().toString())
@@ -91,7 +92,7 @@ public class UsuarioServiceImpl implements UsuarioService {
             throw new BadRequestEx("Incorrect Password. Please try again.");
         }
 
-        String newToken = jwtUtilServiceImpl.generateToken(
+        String newToken = jwtUtilService.generateToken(
                 org.springframework.security.core.userdetails.User
                                 .withUsername(req.getUser().toLowerCase())
                                 .password(encrypt.getAES(req.getPassword()))

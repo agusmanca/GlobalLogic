@@ -13,27 +13,27 @@ import java.util.stream.Collectors;
 @ControllerAdvice
 public class MainHandlerException {
 
-    @ExceptionHandler({ NotFoundEx.class }) // Clase de errorUserNotFoundException
+    @ExceptionHandler({ NotFoundEx.class })
     public ResponseEntity<ErrorMessage> notFoundRequestEx(Exception exception) {
         return new ResponseEntity<>(new ErrorMessage(List.of(exception.getMessage()), HttpStatus.NOT_FOUND), HttpStatus.NOT_FOUND);
     }
 
-    @ExceptionHandler({ BadRequestEx.class }) // Clase de errorUserNotFoundException
+    @ExceptionHandler({ BadRequestEx.class })
     public ResponseEntity<ErrorMessage> badRequestEx(Exception exception) {
         return new ResponseEntity<>(new ErrorMessage(List.of(exception.getMessage()), HttpStatus.BAD_REQUEST), HttpStatus.BAD_REQUEST);
     }
 
-    @ExceptionHandler({ UnauthorizedEx.class }) // Clase de errorUserNotFoundException
+    @ExceptionHandler({ UnauthorizedEx.class })
     public ResponseEntity<ErrorMessage> unauthorizedEx(Exception exception) {
         return new ResponseEntity<>(new ErrorMessage(List.of(exception.getMessage()), HttpStatus.UNAUTHORIZED), HttpStatus.UNAUTHORIZED);
     }
 
-    @ExceptionHandler({ ForbiddenEx.class }) // Clase de errorUserNotFoundException
+    @ExceptionHandler({ ForbiddenEx.class })
     public ResponseEntity<ErrorMessage> ForbiddenEx(Exception exception) {
         return new ResponseEntity<>(new ErrorMessage(List.of(exception.getMessage()), HttpStatus.FORBIDDEN), HttpStatus.FORBIDDEN);
     }
 
-    @ExceptionHandler({ InternalServerErrorEx.class }) // Clase de errorUserNotFoundException
+    @ExceptionHandler({ InternalServerErrorEx.class, IllegalArgumentException.class })
     public ResponseEntity<ErrorMessage> internalServerErrorEx(Exception exception) {
         return new ResponseEntity<>(new ErrorMessage(List.of(exception.getMessage()), HttpStatus.INTERNAL_SERVER_ERROR), HttpStatus.INTERNAL_SERVER_ERROR);
     }
